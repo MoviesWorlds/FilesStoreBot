@@ -4,8 +4,8 @@ import os
 import asyncio
 import traceback
 from binascii import Error
-from pyrogram import Client, filters
-from pyrogram.methods.chats.get_chat_members import filters
+from pyrogram import Client
+from pyrogram import filters
 from pyrogram.errors import UserNotParticipant, FloodWait, QueryIdInvalid
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, Message
 from configs import Config
