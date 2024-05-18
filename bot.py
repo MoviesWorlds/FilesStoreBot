@@ -4,7 +4,7 @@ import os
 import asyncio
 import traceback
 from binascii import Error
-from pyrogram.git import Client, filters
+from pyrogram import Client, filters
 from pyrogram.errors import UserNotParticipant, FloodWait, QueryIdInvalid
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, Message
 from configs import Config
