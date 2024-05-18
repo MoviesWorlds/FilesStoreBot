@@ -1,4 +1,5 @@
 git+https://github.com/TGExplore/pyrogram.git
+pyrogram
 TgCrypto
 motor
 aiofiles
